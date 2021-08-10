@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Dojo Survey</title>
+</head>
+<body>
+    <body>
+        <div class="bigcontainer">
+            <div class="container">
+                <h1 class="title"><strong>Dojo Survey</strong></h1>
+                <form action="/process" method="post">
+                    <div class="location">
+                        <label for="name">Name:</label>
+                        <input type="text" class="name" name="name">
+                    </div>
+                    <div class="location">
+                        <label for="location">Dojo Location:</label>
+                        <select class="selection" name="location">
+                            <option>Chicago</option>
+                            <option>Seattle</option>
+                            <option>Online</option>
+                            <option>Burbank</option>
+                            <option>Bellevue</option>
+                        </select>
+                    </div>
+                    <div class="language">
+                        <label for="language">Favorite Language:</label>
+                        <select class="selection" name="language">
+                            <option>HTML</option>
+                            <option>CSS</option>
+                            <option>JavaScript</option>
+                            <option>Python</option>
+                            <option>C#</option>
+                        </select>
+                    </div>
+                    <div class="comments">
+                        <label for="comments">Comments:</label>
+                        <input type="textarea" class="commentbox" name="comments">
+                    </div>
+                        <input onmouseover="over(this)" onmouseout="out(this)" class="btn-submit" type="submit" value="Submit" name="submit">
+                </form>
+            </div>
+        </div>
+        <script src="/static/script.js"></script>
+</body>
+</html>

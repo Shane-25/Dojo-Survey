@@ -1,0 +1,57 @@
+.container {
+    width: 500px;
+    height: 650px;
+    background-color: gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.title {
+    color: orange;
+    margin-left: 50px;
+}
+.location, .language, .comments {
+    margin-left: 50px;
+    margin-top: 20px;
+    color: whitesmoke;
+}
+.name {
+    height: 25px;
+    width: 397px;
+    border-radius: 5px;
+}
+.selection {
+    height: 35px;
+    width: 405px;
+    border-radius: 5px;
+}
+.btn-submit {
+    height: 30px;
+    width: 55px;
+    margin-left: 400px;
+    border-radius: 5px;
+    background-color: orange;
+}
+.commentbox {
+    height: 300px;
+    width: 397px;
+    border-radius: 5px;
+}
+.container1 {
+    width: 500px;
+    height: 250px;
+    background-color: gray;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+.selection1 {
+    color: blue;
+    margin-left: 50px;
+}
+h4 {
+    color: whitesmoke;
+    margin-left: 50px;
+}
